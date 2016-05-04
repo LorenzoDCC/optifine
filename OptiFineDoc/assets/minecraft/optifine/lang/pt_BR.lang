@@ -7,58 +7,58 @@ of.general.restart=recomeçar
 of.general.smart=Smart
 
 # Message
-of.message.aa.shaders1=Antialiasing is not compatible with Shaders.
-of.message.aa.shaders2=Please disable Shaders to enable this option.
+of.message.aa.shaders1=Antialiasing não é compatível com Shaders.
+of.message.aa.shaders2=Por favor desative os Shaders para ativar essa opção.
 
-of.message.af.shaders1=Anisotropic Filtering is not compatible with Shaders.
-of.message.af.shaders2=Please disable Shaders to enable this option.
+of.message.af.shaders1=Filtragem Anisotrópica não é compatível com Shaders.
+of.message.af.shaders2=Por favor desative os Shaders para ativar essa opção.
 
-of.message.fr.shaders1=Fast Render is not compatible with Shaders.
-of.message.fr.shaders2=Please disable Shaders to enable this option.
+of.message.fr.shaders1=Renderização Rápida não é compatível com Shaders.
+of.message.fr.shaders2=Por favor desative os Shaders para ativar essa opção.
 
-of.message.shaders.aa1=Shaders are not compatible with Antialiasing. 
-of.message.shaders.aa2=Please set Quality -> Antialiasing to OFF and restart the game.
+of.message.shaders.aa1=Shaders não são compatíveis com Antialiasing.
+of.message.shaders.aa2=Por favor defina Qualidade -> Antialiasing em OFF e reinicie o jogo.
 
-of.message.shaders.af1=Shaders are not compatible with Anisotropic Filtering.
-of.message.shaders.af2=Please set Quality -> Anisotropic Filtering to OFF. 
+of.message.shaders.af1=Shaders não são compatíveis com Filtragem Anitrosópica.
+of.message.shaders.af2=Por favor defina Qualidade -> Filtragem Anitrosópica em OFF.
 
-of.message.shaders.fr1=Shaders are not compatible with Fast Render.
-of.message.shaders.fr2=Please set Performance -> Fast Render to OFF.
+of.message.shaders.fr1=Shaders não são compatíveis com Renderização Rápida.
+of.message.shaders.fr2=Por favor defina Performance -> Renderização Rápida em OFF.
 
-of.message.newVersion=A new §eOptiFine§f version is available: §e%s§f
-of.message.java64Bit=You can install §e64-bit Java§f to increase performance
-of.message.openglError=§eOpenGL Error§f: %s (%s)
+of.message.newVersion=Uma nova versão do §eOptiFine§f está disponível: §e%s§f
+of.message.java64Bit=Você pode instalar o §eJava 64-bit§f para melhorar a performance.
+of.message.openglError=§eErro OpenGL§f: %s (%s)
 
-of.message.shaders.loading=Loading shaders: %s
+of.message.shaders.loading=Carregando shaders: %s
 
-of.message.other.reset=Reset all video settings to their default values?
+of.message.other.reset=Redefinir todas as configurações de vídeo para seus valores padrão?
  
 # Video settings
 
-options.graphics.tooltip.1=Visual quality
-options.graphics.tooltip.2=  Fast  - lower quality, faster
-options.graphics.tooltip.3=  Fancy - higher quality, slower
-options.graphics.tooltip.4=Changes the appearance of clouds, leaves, water,
-options.graphics.tooltip.5=shadows and grass sides.
+options.graphics.tooltip.1=Qualidade visual
+options.graphics.tooltip.2=  Rápido  - qualidade mais baixa, mais rápida
+options.graphics.tooltip.3=  Bonito - qualidade mais alta, mais lenta
+options.graphics.tooltip.4=Muda a aparência das nuvens, folhas, água,
+options.graphics.tooltip.5=sombras e lados das grama.
 
-of.options.renderDistance.extreme=Extreme
+of.options.renderDistance.extreme=Extremo
 
-options.renderDistance.tooltip.1=Visible distance
-options.renderDistance.tooltip.2=  2 Tiny - 32m (fastest)
-options.renderDistance.tooltip.3=  4 Short - 64m (faster)
+options.renderDistance.tooltip.1=Distância visível
+options.renderDistance.tooltip.2=  2 Pequena - 32m (mais rápido)
+options.renderDistance.tooltip.3=  4 Curta - 64m (rápido)
 options.renderDistance.tooltip.4=  8 Normal - 128m
-options.renderDistance.tooltip.5=  16 Far - 256m (slower)
-options.renderDistance.tooltip.6=  32 Extreme - 512m (slowest!)
-options.renderDistance.tooltip.7=The Extreme view distance is very resource demanding!
-options.renderDistance.tooltip.8=Values over 16 Far are only effective in local worlds.
+options.renderDistance.tooltip.5=  16 Longe - 256m (lento)
+options.renderDistance.tooltip.6=  32 Extrema - 512m (mais lento!)
+options.renderDistance.tooltip.7=A distância de vista Extrema é muito pesada!
+options.renderDistance.tooltip.8=Valores acima de 16 Longe são apenas efetivos em mundos locais.
 
-options.ao.tooltip.1=Smooth lighting
-options.ao.tooltip.2=  OFF - no smooth lighting (faster)
-options.ao.tooltip.3=  Minimum - simple smooth lighting (slower)
-options.ao.tooltip.4=  Maximum - complex smooth lighting (slowest)
+options.ao.tooltip.1=Iluminação Suave
+options.ao.tooltip.2=  OFF - no smooth lighting (faster) ####
+options.ao.tooltip.3=  Mínimo - simple smooth lighting (slower)
+options.ao.tooltip.4=  Máximo - complex smooth lighting (slowest)
 
 options.framerateLimit.tooltip.1=Max framerate
-options.framerateLimit.tooltip.2=  VSync - limit to monitor framerate (60, 30, 20)
+options.framerateLimit.tooltip.2=  VSync - limit to monitor framerate (60, 30, 20) 
 options.framerateLimit.tooltip.3=  5-255 - variable
 options.framerateLimit.tooltip.4=  Unlimited - no limit (fastest)
 options.framerateLimit.tooltip.5=The framerate limit decreases the FPS even if
@@ -68,7 +68,7 @@ of.options.framerateLimit.vsync=VSync
 of.options.AO_LEVEL=Smooth Lighting Level
 of.options.AO_LEVEL.tooltip.1=Smooth lighting level
 of.options.AO_LEVEL.tooltip.2=  OFF - no shadows
-of.options.AO_LEVEL.tooltip.3=  50%% - light shadows
+of.options.AO_LEVEL.tooltip.3=  50%% - light shadows ####
 of.options.AO_LEVEL.tooltip.4=  100%% - dark shadows
 
 options.viewBobbing.tooltip.1=More realistic movement.
@@ -78,7 +78,7 @@ options.guiScale.tooltip.1=GUI Scale
 options.guiScale.tooltip.2=Smaller GUI might be faster
 
 options.vbo.tooltip.1=Vertex Buffer Objects
-options.vbo.tooltip.2=Uses an alternative rendering model which is usually
+options.vbo.tooltip.2=Uses an alternative rendering model which is usually ####
 options.vbo.tooltip.3=faster (5-10%%) than the default rendering.
 
 options.gamma.tooltip.1=Increases the brightness of darker objects
@@ -88,7 +88,7 @@ options.gamma.tooltip.4=This options does not change the brightness of
 options.gamma.tooltip.5=fully black objects
 
 options.anaglyph.tooltip.1=3D Anaglyph
-options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colors
+options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colors ####
 options.anaglyph.tooltip.3=for each eye.
 options.anaglyph.tooltip.4=Requires red-cyan glasses for proper viewing.
 
@@ -96,31 +96,31 @@ options.blockAlternatives.tooltip.1=Alternate Blocks
 options.blockAlternatives.tooltip.2=Uses alternative block models for some blocks.
 options.blockAlternatives.tooltip.3=Depends on the selected resource pack.
 
-of.options.FOG_FANCY=Fog
-of.options.FOG_FANCY.tooltip.1=Fog type
-of.options.FOG_FANCY.tooltip.2=  Fast - faster fog
-of.options.FOG_FANCY.tooltip.3=  Fancy - slower fog, looks better
-of.options.FOG_FANCY.tooltip.4=  OFF - no fog, fastest
-of.options.FOG_FANCY.tooltip.5=The fancy fog is available only if it is supported by the 
-of.options.FOG_FANCY.tooltip.6=graphic card.
+of.options.FOG_FANCY=Neblina
+of.options.FOG_FANCY.tooltip.1=Tipo de neblina
+of.options.FOG_FANCY.tooltip.2=  Rápida - neblina mais rápida
+of.options.FOG_FANCY.tooltip.3=  Bonita - neblina mais lenta, mais bonita
+of.options.FOG_FANCY.tooltip.4=  OFF - sem neblina, mais rápida
+of.options.FOG_FANCY.tooltip.5=A neblina bonita só está disponível se suportada
+of.options.FOG_FANCY.tooltip.6=pela placa de vídeo.
 
-of.options.FOG_START=Fog Start
-of.options.FOG_START.tooltip.1=Fog start
-of.options.FOG_START.tooltip.2=  0.2 - the fog starts near the player
-of.options.FOG_START.tooltip.3=  0.8 - the fog starts far from the player
-of.options.FOG_START.tooltip.4=This option usually does not affect the performance.
+of.options.FOG_START=Começo da Neblina
+of.options.FOG_START.tooltip.1=Começo da neblina
+of.options.FOG_START.tooltip.2=  0.2 - a neblina começa perto do jogador
+of.options.FOG_START.tooltip.3=  0.8 - a neblina começa longe do jogador
+of.options.FOG_START.tooltip.4=Essa opção não costuma afetar a performance.
 
-of.options.CHUNK_LOADING=Chunk Loading
-of.options.CHUNK_LOADING.tooltip.1=Chunk Loading
-of.options.CHUNK_LOADING.tooltip.2=  Default - unstable FPS when loading chunks
-of.options.CHUNK_LOADING.tooltip.3=  Smooth - stable FPS
-of.options.CHUNK_LOADING.tooltip.4=  Multi-Core - stable FPS, 3x faster world loading
-of.options.CHUNK_LOADING.tooltip.5=Smooth and Multi-Core remove the stuttering and 
-of.options.CHUNK_LOADING.tooltip.6=freezes caused by chunk loading.
-of.options.CHUNK_LOADING.tooltip.7=Multi-Core can speed up 3x the world loading and
-of.options.CHUNK_LOADING.tooltip.8=increase FPS by using a second CPU core.
-of.options.chunkLoading.smooth=Smooth
-of.options.chunkLoading.multiCore=Multi-Core
+of.options.CHUNK_LOADING=Carreg. de Chunks
+of.options.CHUNK_LOADING.tooltip.1=Carregamento de Chunks
+of.options.CHUNK_LOADING.tooltip.2= Padrão - FPS instável quando carregando chunks
+of.options.CHUNK_LOADING.tooltip.3=  Suave - FPS estável
+of.options.CHUNK_LOADING.tooltip.4=  Multi-Núcleo - FPS estável, carregamento do mundo 3x mais rápido
+of.options.CHUNK_LOADING.tooltip.5=Suave e Multi-Núcleo removem as travadas
+of.options.CHUNK_LOADING.tooltip.6=e lags causados por carregar chunks.
+of.options.CHUNK_LOADING.tooltip.7=Multi-Núcleo pode acelerar em 3x o carregamento do mundo
+of.options.CHUNK_LOADING.tooltip.8=e aumentar o FPS usando um segundo núcleo da CPU.
+of.options.chunkLoading.smooth=Suave
+of.options.chunkLoading.multiCore=Multi-Núcleo
 
 of.options.shaders=Shaders...
 of.options.shadersTitle=Shaders
@@ -135,27 +135,27 @@ of.options.shaders.RENDER_RES_MUL=Qualidade de Render
 of.options.shaders.SHADOW_RES_MUL=Qualidade das Sombras
 of.options.shaders.HAND_DEPTH_MUL=Profundidade da Mão
 of.options.shaders.CLOUD_SHADOW=Sombra das Nuvens
-of.options.shaders.OLD_LIGHTING=Ilum. Velha
+of.options.shaders.OLD_LIGHTING=Ilum. Antiga
 of.options.shaders.SHADER_PACK=Pacote de Shaders
 
-of.options.shaders.shadersFolder=Shaders Folder
-of.options.shaders.shaderOptions=Shader Options...
+of.options.shaders.shadersFolder=Pasta de Shaders
+of.options.shaders.shaderOptions=Opções de Shaders...
 
-of.options.shaderOptionsTitle=Shader Options
+of.options.shaderOptionsTitle=Opções de Shaders
 
-of.options.quality=Quality...
-of.options.qualityTitle=Quality Settings
+of.options.quality=Qualidade...
+of.options.qualityTitle=Quality Settings ####
 
-of.options.details=Details...
+of.options.details=Detalhes...
 of.options.detailsTitle=Detail Settings
 
 of.options.performance=Performance...
 of.options.performanceTitle=Performance Settings
 
-of.options.animations=Animations...
+of.options.animations=Animações...
 of.options.animationsTitle=Animation Settings
 
-of.options.other=Other...
+of.options.other=Outro...
 of.options.otherTitle=Other Settings
 
 of.options.other.reset=Reset Video Settings...
@@ -166,58 +166,58 @@ of.shaders.profile=Profile
 
 of.options.mipmap.bilinear=Bilinear
 of.options.mipmap.linear=Linear
-of.options.mipmap.nearest=Nearest
+of.options.mipmap.nearest=Mais Próximo
 of.options.mipmap.trilinear=Trilinear
 
-options.mipmapLevels.tooltip.1=Visual effect which makes distant objects look better
-options.mipmapLevels.tooltip.2=by smoothing the texture details
-options.mipmapLevels.tooltip.3=  OFF - no smoothing
-options.mipmapLevels.tooltip.4=  1 - minimum smoothing
-options.mipmapLevels.tooltip.5=  4 - maximum smoothing
-options.mipmapLevels.tooltip.6=This option usually does not affect the performance.
+options.mipmapLevels.tooltip.1=Efeito visual que faz objetos distantes mais
+options.mipmapLevels.tooltip.2=bonitos suavizando detalhes das texturas
+options.mipmapLevels.tooltip.3=  OFF - sem suavização
+options.mipmapLevels.tooltip.4=  1 - suavização mínima
+options.mipmapLevels.tooltip.5=  4 - suavização máxima
+options.mipmapLevels.tooltip.6=Essa opção não costuma afetar a performance.
 
-of.options.MIPMAP_TYPE=Mipmap Type
-of.options.MIPMAP_TYPE.tooltip.1=Visual effect which makes distant objects look better
-of.options.MIPMAP_TYPE.tooltip.2=by smoothing the texture details
-of.options.MIPMAP_TYPE.tooltip.3=  Nearest - rough smoothing (fastest)
-of.options.MIPMAP_TYPE.tooltip.4=  Linear - normal smoothing
-of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - fine smoothing
-of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - finest smoothing (slowest)
+of.options.MIPMAP_TYPE=Tipo de Mipmap
+of.options.MIPMAP_TYPE.tooltip.1=Efeito visual que faz objetos distantes mais
+of.options.MIPMAP_TYPE.tooltip.2=bonitos suavizando detalhes das texturas
+of.options.MIPMAP_TYPE.tooltip.3=  Mais Próximo - suavização leve (mais rápida)
+of.options.MIPMAP_TYPE.tooltip.4=  Linear - suavização normal
+of.options.MIPMAP_TYPE.tooltip.5=  Bilinear - suavização boa
+of.options.MIPMAP_TYPE.tooltip.6=  Trilinear - melhor suavização (mais lenta)
 
 
 of.options.AA_LEVEL=Antialiasing
-of.options.AA_LEVEL.tooltip.1=Antialiasing
-of.options.AA_LEVEL.tooltip.2= OFF - (default) no antialiasing (faster)
-of.options.AA_LEVEL.tooltip.3= 2-16 - antialiased lines and edges (slower)
-of.options.AA_LEVEL.tooltip.4=The Antialiasing smooths jagged lines and 
-of.options.AA_LEVEL.tooltip.5=sharp color transitions.
-of.options.AA_LEVEL.tooltip.6=When enabled it may substantially decrease the FPS.
-of.options.AA_LEVEL.tooltip.7=Not all levels are supported by all graphics cards.
-of.options.AA_LEVEL.tooltip.8=Effective after a RESTART!
+of.options.AA_LEVEL.tooltip.1=Antiserrilhamento
+of.options.AA_LEVEL.tooltip.2= OFF - (padrão) sem antiserrilhamento (mais rápido)
+of.options.AA_LEVEL.tooltip.3= 2-16 - cantos e linhas antiserrilhadas (mais lento)
+of.options.AA_LEVEL.tooltip.4=O Antisserrilhamento suaviza linhas pontudas e
+of.options.AA_LEVEL.tooltip.5=transições cromáticas agudas.
+of.options.AA_LEVEL.tooltip.6=Quando ativado pode diminuir o FPS consideravelmente.
+of.options.AA_LEVEL.tooltip.7=Nem todos os níveis são suportados por todas as placas de vídeo.
+of.options.AA_LEVEL.tooltip.8=Efetivo após REINÍCIO.
 
-of.options.AF_LEVEL=Anisotropic Filtering
-of.options.AF_LEVEL.tooltip.1=Anisotropic Filtering
-of.options.AF_LEVEL.tooltip.2= OFF - (default) standard texture detail (faster)
-of.options.AF_LEVEL.tooltip.3= 2-16 - finer details in mipmapped textures (slower)
-of.options.AF_LEVEL.tooltip.4=The Anisotropic Filtering restores details in
-of.options.AF_LEVEL.tooltip.5=mipmapped textures.
-of.options.AF_LEVEL.tooltip.6=When enabled it may substantially decrease the FPS.
+of.options.AF_LEVEL=Filtragem Anisotrópica
+of.options.AF_LEVEL.tooltip.1=Filtragem Anisotrópica
+of.options.AF_LEVEL.tooltip.2= OFF - (padrão) detalhe de textura padrão (mais rápida)
+of.options.AF_LEVEL.tooltip.3= 2-16 - detalhes melhores em texturas com mipmap (mais lenta)
+of.options.AF_LEVEL.tooltip.4=A Filtragem Anisotrópica recupera detalhes em
+of.options.AF_LEVEL.tooltip.5=texturas com mipmap.
+of.options.AF_LEVEL.tooltip.6=Quando ativado pode diminuir o FPS consideravelmente.
 
-of.options.CLEAR_WATER=Clear Water
+of.options.CLEAR_WATER=Água Clara
 of.options.CLEAR_WATER.tooltip.1=Clear Water
-of.options.CLEAR_WATER.tooltip.2=  ON - clear, transparent water
+of.options.CLEAR_WATER.tooltip.2=  ON - clear, transparent water ####
 of.options.CLEAR_WATER.tooltip.3=  OFF - default water
 
 of.options.RANDOM_MOBS=Random Mobs
 of.options.RANDOM_MOBS.tooltip.1=Random Mobs
 of.options.RANDOM_MOBS.tooltip.2=  OFF - no random mobs, faster
 of.options.RANDOM_MOBS.tooltip.3=  ON - random mobs, slower
-of.options.RANDOM_MOBS.tooltip.4=Random mobs uses random textures for the game creatures.
+of.options.RANDOM_MOBS.tooltip.4=Random mobs uses random textures for the game creatures. 
 of.options.RANDOM_MOBS.tooltip.5=It needs a texture pack which has multiple mob textures.
 
 of.options.BETTER_GRASS=Better Grass
 of.options.BETTER_GRASS.tooltip.1=Better Grass
-of.options.BETTER_GRASS.tooltip.2=  OFF - default side grass texture, fastest
+of.options.BETTER_GRASS.tooltip.2=  OFF - default side grass texture, fastest 
 of.options.BETTER_GRASS.tooltip.3=  Fast - full side grass texture, slower
 of.options.BETTER_GRASS.tooltip.4=  Fancy - dynamic side grass texture, slowest
 
@@ -225,12 +225,12 @@ of.options.BETTER_SNOW=Better Snow
 of.options.BETTER_SNOW.tooltip.1=Better Snow
 of.options.BETTER_SNOW.tooltip.2=  OFF - default snow, faster
 of.options.BETTER_SNOW.tooltip.3=  ON - better snow, slower
-of.options.BETTER_SNOW.tooltip.4=Shows snow under transparent blocks (fence, tall grass)
+of.options.BETTER_SNOW.tooltip.4=Shows snow under transparent blocks (fence, tall grass) 
 of.options.BETTER_SNOW.tooltip.5=when bordering with snow blocks
 
 of.options.CUSTOM_FONTS=Custom Fonts
 of.options.CUSTOM_FONTS.tooltip.1=Custom Fonts
-of.options.CUSTOM_FONTS.tooltip.2=  ON - uses custom fonts (default), slower
+of.options.CUSTOM_FONTS.tooltip.2=  ON - uses custom fonts (default), slower 
 of.options.CUSTOM_FONTS.tooltip.3=  OFF - uses default font, faster
 of.options.CUSTOM_FONTS.tooltip.4=The custom fonts are supplied by the current
 of.options.CUSTOM_FONTS.tooltip.5=texture pack
@@ -238,7 +238,7 @@ of.options.CUSTOM_FONTS.tooltip.5=texture pack
 of.options.CUSTOM_COLORS=Custom Colors
 of.options.CUSTOM_COLORS.tooltip.1=Custom Colors
 of.options.CUSTOM_COLORS.tooltip.2=  ON - uses custom colors (default), slower
-of.options.CUSTOM_COLORS.tooltip.3=  OFF - uses default colors, faster
+of.options.CUSTOM_COLORS.tooltip.3=  OFF - uses default colors, faster 
 of.options.CUSTOM_COLORS.tooltip.4=The custom colors are supplied by the current
 of.options.CUSTOM_COLORS.tooltip.5=texture pack
 
@@ -246,7 +246,7 @@ of.options.SWAMP_COLORS=Swamp Colors
 of.options.SWAMP_COLORS.tooltip.1=Swamp Colors
 of.options.SWAMP_COLORS.tooltip.2=  ON - use swamp colors (default), slower
 of.options.SWAMP_COLORS.tooltip.3=  OFF - do not use swamp colors, faster
-of.options.SWAMP_COLORS.tooltip.4=The swamp colors affect grass, leaves, vines and water.
+of.options.SWAMP_COLORS.tooltip.4=The swamp colors affect grass, leaves, vines and water. 
 
 of.options.SMOOTH_BIOMES=Smooth Biomes
 of.options.SMOOTH_BIOMES.tooltip.1=Smooth Biomes
