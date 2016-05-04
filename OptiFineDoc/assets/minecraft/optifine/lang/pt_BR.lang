@@ -416,112 +416,112 @@ of.options.CHUNK_UPDATES.tooltip.4= 5 - fastest world loading, lowest FPS
 of.options.CHUNK_UPDATES.tooltip.5=Number of chunk updates per rendered frame,
 of.options.CHUNK_UPDATES.tooltip.6=higher values may destabilize the framerate.
 
-of.options.CHUNK_UPDATES_DYNAMIC=Dynamic Updates
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Dynamic chunk updates
-of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= OFF - (default) standard chunk updates per frame
+of.options.CHUNK_UPDATES_DYNAMIC=Atualizações Dinâmicas
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=Atualizações de chunk dinâmicas
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2= OFF - (padrão) atualização de chunks padrão por frame
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3= ON - more updates while the player is standing still
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=Dynamic updates force more chunk updates while
 of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=the player is standing still to load the world faster.
 
-of.options.LAZY_CHUNK_LOADING=Lazy Chunk Loading
-of.options.LAZY_CHUNK_LOADING.tooltip.1=Lazy Chunk Loading
-of.options.LAZY_CHUNK_LOADING.tooltip.2= OFF - default server chunk loading
-of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - lazy server chunk loading (smoother)
-of.options.LAZY_CHUNK_LOADING.tooltip.4=Smooths the integrated server chunk loading by
-of.options.LAZY_CHUNK_LOADING.tooltip.5=distributing the chunks over several ticks.
-of.options.LAZY_CHUNK_LOADING.tooltip.6=Turn it OFF if parts of the world do not load correctly.
-of.options.LAZY_CHUNK_LOADING.tooltip.7=Effective only for local worlds and single-core CPU.
+of.options.LAZY_CHUNK_LOADING=Crg. Preguiçoso de Chunk
+of.options.LAZY_CHUNK_LOADING.tooltip.1=Carregamento Preguiçoso de Chunk
+of.options.LAZY_CHUNK_LOADING.tooltip.2= OFF - carregamento padrão de chunks do servidor
+of.options.LAZY_CHUNK_LOADING.tooltip.3= ON - carregamento preguiçoso de chunks do servidor (mais suave)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=Suaviza o carregamento integrado de chunks
+of.options.LAZY_CHUNK_LOADING.tooltip.5=distribuindo-os em vários ticks.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=Desligue se partes do mundo não carregam corretamente.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=Efetivo apenas para mundos locais e CPU de núcleo único.
 
 # Animations
 
-of.options.animation.allOn=All ON
-of.options.animation.allOff=All OFF
-of.options.animation.dynamic=Dynamic
+of.options.animation.allOn=Tudo ON
+of.options.animation.allOff=Tudo OFF
+of.options.animation.dynamic=Dinâmico
 
-of.options.ANIMATED_WATER=Water Animated
-of.options.ANIMATED_LAVA=Lava Animated
-of.options.ANIMATED_FIRE=Fire Animated
-of.options.ANIMATED_PORTAL=Portal Animated
-of.options.ANIMATED_REDSTONE=Redstone Animated
-of.options.ANIMATED_EXPLOSION=Explosion Animated
-of.options.ANIMATED_FLAME=Flame Animated
-of.options.ANIMATED_SMOKE=Smoke Animated
-of.options.VOID_PARTICLES=Void Particles
-of.options.WATER_PARTICLES=Water Particles
-of.options.RAIN_SPLASH=Rain Splash
-of.options.PORTAL_PARTICLES=Portal Particles
-of.options.POTION_PARTICLES=Potion Particles
-of.options.DRIPPING_WATER_LAVA=Dripping Water/Lava
-of.options.ANIMATED_TERRAIN=Terrain Animated
-of.options.ANIMATED_TEXTURES=Textures Animated
-of.options.FIREWORK_PARTICLES=Firework Particles
+of.options.ANIMATED_WATER=Água Animada
+of.options.ANIMATED_LAVA=Lava Animada
+of.options.ANIMATED_FIRE=Fogo Animado
+of.options.ANIMATED_PORTAL=Portal Animado
+of.options.ANIMATED_REDSTONE=Redstone Animada
+of.options.ANIMATED_EXPLOSION=Explosão Animada
+of.options.ANIMATED_FLAME=Chama Animada
+of.options.ANIMATED_SMOKE=Fumaça Animada
+of.options.VOID_PARTICLES=Partículas do Void
+of.options.WATER_PARTICLES=Partículas de Água
+of.options.RAIN_SPLASH=Splash da Chuva
+of.options.PORTAL_PARTICLES=Partículas do Portal
+of.options.POTION_PARTICLES=Partículas de Poção
+of.options.DRIPPING_WATER_LAVA=Água/Lava Pingando
+of.options.ANIMATED_TERRAIN=Terreno Animado
+of.options.ANIMATED_TEXTURES=Texturas Animadas
+of.options.FIREWORK_PARTICLES=Fogos de Artifício Animados
 
 # Other
 
-of.options.LAGOMETER=Lagometer
-of.options.LAGOMETER.tooltip.1=Shows the lagometer on the debug screen (F3).
-of.options.LAGOMETER.tooltip.2=* Orange - Memory garbage collection
-of.options.LAGOMETER.tooltip.3=* Cyan - Tick
-of.options.LAGOMETER.tooltip.4=* Blue - Scheduled executables
-of.options.LAGOMETER.tooltip.5=* Purple - Chunk upload
-of.options.LAGOMETER.tooltip.6=* Red - Chunk updates
-of.options.LAGOMETER.tooltip.7=* Yellow - Visibility check
-of.options.LAGOMETER.tooltip.8=* Green - Render terrain
+of.options.LAGOMETER=Lagômetro
+of.options.LAGOMETER.tooltip.1=Mostra o lagômetro na tela de debug (F3).
+of.options.LAGOMETER.tooltip.2=* Laranja - Memory garbage collection
+of.options.LAGOMETER.tooltip.3=* Ciano - Tick
+of.options.LAGOMETER.tooltip.4=* Azul - Executáveis agendados
+of.options.LAGOMETER.tooltip.5=* Lilás - Upload de chunk
+of.options.LAGOMETER.tooltip.6=* Vermelho - Atualização de chunk
+of.options.LAGOMETER.tooltip.7=* Amarelo - Checagem de visibilidade
+of.options.LAGOMETER.tooltip.8=* Verde - Renderização de terreno
 
 of.options.PROFILER=Debug Profiler
 of.options.PROFILER.tooltip.1=Debug Profiler
-of.options.PROFILER.tooltip.2=  ON - debug profiler is active, slower
-of.options.PROFILER.tooltip.3=  OFF - debug profiler is not active, faster
-of.options.PROFILER.tooltip.4=The debug profiler collects and shows debug information
-of.options.PROFILER.tooltip.5=when the debug screen is open (F3)
+of.options.PROFILER.tooltip.2=  ON - debug profiler ativo, mais lento
+of.options.PROFILER.tooltip.3=  OFF - debug profiler inativo, mais rápido
+of.options.PROFILER.tooltip.4=O debug profiler coleta e mostra informação de debug
+of.options.PROFILER.tooltip.5=quando a tela de debug está aberta (F3)
 
-of.options.WEATHER=Weather
-of.options.WEATHER.tooltip.1=Weather
-of.options.WEATHER.tooltip.2=  ON - weather is active, slower
-of.options.WEATHER.tooltip.3=  OFF - weather is not active, faster
-of.options.WEATHER.tooltip.4=The weather controls rain, snow and thunderstorms.
-of.options.WEATHER.tooltip.5=Weather control is only possible for local worlds.
+of.options.WEATHER=Clima
+of.options.WEATHER.tooltip.1=Clima
+of.options.WEATHER.tooltip.2=  ON - clima ativo, mais lento
+of.options.WEATHER.tooltip.3=  OFF - clima inativo, mais rápido
+of.options.WEATHER.tooltip.4=O clima controla chuva, neve e tempestades.
+of.options.WEATHER.tooltip.5=Controle climático só é possível em mundos locais.
 
-of.options.time.dayOnly=Day Only
-of.options.time.nightOnly=Night Only
+of.options.time.dayOnly=Apenas Dia
+of.options.time.nightOnly=Apenas Noite
 
-of.options.TIME=Time
-of.options.TIME.tooltip.1=Time
-of.options.TIME.tooltip.2= Default - normal day/night cycles
-of.options.TIME.tooltip.3= Day Only - day only
-of.options.TIME.tooltip.4= Night Only - night only
-of.options.TIME.tooltip.5=The time setting is only effective in CREATIVE mode
-of.options.TIME.tooltip.6=and for local worlds.
+of.options.TIME=Hora
+of.options.TIME.tooltip.1=Hora
+of.options.TIME.tooltip.2= Padrão - ciclos de dia/noite normais
+of.options.TIME.tooltip.3= Apenas Dia - apenas dia
+of.options.TIME.tooltip.4= Apenas Noite - apenas noite
+of.options.TIME.tooltip.5=A configuração de tempo só funcina no
+of.options.TIME.tooltip.6=MODO CRIATIVO e mundos locais.
 
-options.fullscreen.tooltip.1=Fullscreen
-options.fullscreen.tooltip.2=  ON - use fullscreen mode
-options.fullscreen.tooltip.3=  OFF - use window mode
-options.fullscreen.tooltip.4=Fullscreen mode may be faster or slower than
-options.fullscreen.tooltip.5=window mode, depending on the graphics card.
+options.fullscreen.tooltip.1=Tela Cheia
+options.fullscreen.tooltip.2=  ON - usa modo tela cheia
+options.fullscreen.tooltip.3=  OFF - usa modo em janela
+options.fullscreen.tooltip.4=Dependendo da placa de vídeo, o modo
+options.fullscreen.tooltip.5=tela cheia pode ser melhor ou pior.
 
-of.options.FULLSCREEN_MODE=Fullscreen Mode
-of.options.FULLSCREEN_MODE.tooltip.1=Fullscreen mode
-of.options.FULLSCREEN_MODE.tooltip.2=  Default - use desktop screen resolution, slower
-of.options.FULLSCREEN_MODE.tooltip.3=  WxH - use custom screen resolution, may be faster
-of.options.FULLSCREEN_MODE.tooltip.4=The selected resolution is used in fullscreen mode (F11).
-of.options.FULLSCREEN_MODE.tooltip.5=Lower resolutions should generally be faster.
+of.options.FULLSCREEN_MODE=Modo de Tela Cheia
+of.options.FULLSCREEN_MODE.tooltip.1=Modo de Tela Cheia
+of.options.FULLSCREEN_MODE.tooltip.2=  Padrão - usa resolução do desktop, mais lento
+of.options.FULLSCREEN_MODE.tooltip.3=  WxH - usa resolução personalizada, pode ser mais rápido
+of.options.FULLSCREEN_MODE.tooltip.4=A resolução selecionada é usada no modo tela cheia (F11).
+of.options.FULLSCREEN_MODE.tooltip.5=Resoluções mais baixas são mais rápidas em geral.
 
-of.options.SHOW_FPS=Show FPS
-of.options.SHOW_FPS.tooltip.1=Shows compact FPS and render information
-of.options.SHOW_FPS.tooltip.2=  C: - chunk renderers
-of.options.SHOW_FPS.tooltip.3=  E: - rendered entities + block entities
-of.options.SHOW_FPS.tooltip.4=  U: - chunk updates
-of.options.SHOW_FPS.tooltip.5=The compact FPS information is only shown when the
-of.options.SHOW_FPS.tooltip.6=debug screen is not visible.
+of.options.SHOW_FPS=Mostrar FPS
+of.options.SHOW_FPS.tooltip.1=Mostra infomração compacta de FPS e renderização
+of.options.SHOW_FPS.tooltip.2=  C: - renderizadores de chunk
+of.options.SHOW_FPS.tooltip.3=  E: - entidades renderizadas + entidades de blocos
+of.options.SHOW_FPS.tooltip.4=  U: - atualizações de chunk
+of.options.SHOW_FPS.tooltip.5=A informação compacta de FPS só aparece quando
+of.options.SHOW_FPS.tooltip.6=a tela de debug está desativada.
 
-of.options.save.default=Default (2s)
+of.options.save.default=Padrão (2s)
 of.options.save.20s=20s
 of.options.save.3min=3min
 of.options.save.30min=30min
 
 of.options.AUTOSAVE_TICKS=Autosave
-of.options.AUTOSAVE_TICKS.tooltip.1=Autosave interval
-of.options.AUTOSAVE_TICKS.tooltip.2=Default autosave interval (2s) is NOT RECOMMENDED.
-of.options.AUTOSAVE_TICKS.tooltip.3=Autosave causes the famous Lag Spike of Death.
+of.options.AUTOSAVE_TICKS.tooltip.1=Intervalo de autosave
+of.options.AUTOSAVE_TICKS.tooltip.2=Intervalo padrão (2s) NÃO É RECOMENDADO.
+of.options.AUTOSAVE_TICKS.tooltip.3=Autosave causa o famoso Lag Spike da Morte.
 
-options.anaglyph.tooltip.1=3D mode used with red-cyan 3D glasses.
+options.anaglyph.tooltip.1=Modo 3D usado com óculos 3D vermelho-ciano.
