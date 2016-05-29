@@ -53,48 +53,48 @@ options.renderDistance.tooltip.7=A distância de vista Extrema é muito pesada!
 options.renderDistance.tooltip.8=Valores acima de 16 Longe são apenas efetivos em mundos locais.
 
 options.ao.tooltip.1=Iluminação Suave
-options.ao.tooltip.2=  OFF - no smooth lighting (faster) ####
-options.ao.tooltip.3=  Mínimo - simple smooth lighting (slower)
-options.ao.tooltip.4=  Máximo - complex smooth lighting (slowest)
+options.ao.tooltip.2=  OFF - sem iluminação suave (mais rápido)
+options.ao.tooltip.3=  Mínimo - iluminação suave simples (lento)
+options.ao.tooltip.4=  Máximo - iluminação suave complexa (mais lento)
 
-options.framerateLimit.tooltip.1=Max framerate
-options.framerateLimit.tooltip.2=  VSync - limit to monitor framerate (60, 30, 20) 
-options.framerateLimit.tooltip.3=  5-255 - variable
-options.framerateLimit.tooltip.4=  Unlimited - no limit (fastest)
-options.framerateLimit.tooltip.5=The framerate limit decreases the FPS even if
-options.framerateLimit.tooltip.6=the limit value is not reached.
+options.framerateLimit.tooltip.1=Framerate máx.
+options.framerateLimit.tooltip.2=  VSync - limita à cadência do monitor (60, 30, 20) 
+options.framerateLimit.tooltip.3=  5-255 - variável
+options.framerateLimit.tooltip.4=  Ilimitado - sem limite (mais rápido)
+options.framerateLimit.tooltip.5=O limite de cadência diminui o FPS mesmo se
+options.framerateLimit.tooltip.6=o valor limite não for alcançado.
 of.options.framerateLimit.vsync=VSync
 
-of.options.AO_LEVEL=Smooth Lighting Level
-of.options.AO_LEVEL.tooltip.1=Smooth lighting level
-of.options.AO_LEVEL.tooltip.2=  OFF - no shadows
-of.options.AO_LEVEL.tooltip.3=  50%% - light shadows ####
-of.options.AO_LEVEL.tooltip.4=  100%% - dark shadows
+of.options.AO_LEVEL=Nível de Ilum. Suave
+of.options.AO_LEVEL.tooltip.1=Nível de Iluminação Suave
+of.options.AO_LEVEL.tooltip.2=  OFF - sem sombras
+of.options.AO_LEVEL.tooltip.3=  50%% - sombras leves
+of.options.AO_LEVEL.tooltip.4=  100%% - sombras escuras
+options.viewBobbing.tooltip.1=Movimento mais realístico
+options.viewBobbing.tooltip.2=Quando usando mipmaps deixe OFF para melhores resultados.
 
-options.viewBobbing.tooltip.1=More realistic movement.
-options.viewBobbing.tooltip.2=When using mipmaps set it to OFF for best results.
-
-options.guiScale.tooltip.1=GUI Scale
-options.guiScale.tooltip.2=Smaller GUI might be faster
+options.guiScale.tooltip.1=Escala da GUI
+options.guiScale.tooltip.2=GUIs menores podem ser mais rápidas.
 
 options.vbo.tooltip.1=Vertex Buffer Objects
-options.vbo.tooltip.2=Uses an alternative rendering model which is usually ####
-options.vbo.tooltip.3=faster (5-10%%) than the default rendering.
+options.vbo.tooltip.2=Usa um modelo de renderização que é geralmente
+options.vbo.tooltip.3=mais rápido (5-10%%) que a renderização padrão.
 
-options.gamma.tooltip.1=Increases the brightness of darker objects
-options.gamma.tooltip.2=  OFF - standard brightness
-options.gamma.tooltip.3=  100%% - maximum brightness for darker objects
-options.gamma.tooltip.4=This options does not change the brightness of 
-options.gamma.tooltip.5=fully black objects
+options.gamma.tooltip.1=Muda o brilho de objetos mais escuros.
+options.gamma.tooltip.2=  Moody - brilho padrão ####
+options.gamma.tooltip.3=  1-99%% - variável
+options.gamma.tooltip.4=  Bright - brilho máximo para objetos mais escuros ####
+options.gamma.tooltip.5=Essa opção não muda o brilho de
+options.gamma.tooltip.6=objetos totalmente pretos.
 
-options.anaglyph.tooltip.1=3D Anaglyph
-options.anaglyph.tooltip.2=Enables a stereoscopic 3D effect using different colors ####
-options.anaglyph.tooltip.3=for each eye.
-options.anaglyph.tooltip.4=Requires red-cyan glasses for proper viewing.
+options.anaglyph.tooltip.1=Anáglifo 3D
+options.anaglyph.tooltip.2=Ativa um efeito 3D estereoscópico usando diferentes cores
+options.anaglyph.tooltip.3=para cada olho.
+options.anaglyph.tooltip.4=Requer óculos vermelho-cianos para visualizar propriamente.
 
-options.blockAlternatives.tooltip.1=Alternate Blocks
-options.blockAlternatives.tooltip.2=Uses alternative block models for some blocks.
-options.blockAlternatives.tooltip.3=Depends on the selected resource pack.
+options.blockAlternatives.tooltip.1=Blocos Alternados
+options.blockAlternatives.tooltip.2=Usa modelos de blocos alternativos para alguns blocos.
+options.blockAlternatives.tooltip.3=Depende do resource pack selecionado.
 
 of.options.FOG_FANCY=Neblina
 of.options.FOG_FANCY.tooltip.1=Tipo de neblina
@@ -135,6 +135,7 @@ of.options.shaders.RENDER_RES_MUL=Qualidade de Render
 of.options.shaders.SHADOW_RES_MUL=Qualidade das Sombras
 of.options.shaders.HAND_DEPTH_MUL=Profundidade da Mão
 of.options.shaders.CLOUD_SHADOW=Sombra das Nuvens
+of.options.shaders.OLD_HAND_LIGHT=Ilum. Antiga da Mão 
 of.options.shaders.OLD_LIGHTING=Ilum. Antiga
 of.options.shaders.SHADER_PACK=Pacote de Shaders
 
@@ -144,23 +145,23 @@ of.options.shaders.shaderOptions=Opções de Shaders...
 of.options.shaderOptionsTitle=Opções de Shaders
 
 of.options.quality=Qualidade...
-of.options.qualityTitle=Quality Settings ####
+of.options.qualityTitle=Configurações sobre Qualidade
 
 of.options.details=Detalhes...
-of.options.detailsTitle=Detail Settings
+of.options.detailsTitle=Configurações sobre Detalhes
 
 of.options.performance=Performance...
-of.options.performanceTitle=Performance Settings
+of.options.performanceTitle=Configurações sobre Performance
 
 of.options.animations=Animações...
-of.options.animationsTitle=Animation Settings
+of.options.animationsTitle=Configurações sobre Animações
 
 of.options.other=Outro...
-of.options.otherTitle=Other Settings
+of.options.otherTitle=Outras Configurações
 
-of.options.other.reset=Reset Video Settings...
+of.options.other.reset=Redefinir Configs. de Vídeo...
 
-of.shaders.profile=Profile
+of.shaders.profile=Perfil
 
 # Quality
 
@@ -203,10 +204,10 @@ of.options.AF_LEVEL.tooltip.4=A Filtragem Anisotrópica recupera detalhes em
 of.options.AF_LEVEL.tooltip.5=texturas com mipmap.
 of.options.AF_LEVEL.tooltip.6=Quando ativado pode diminuir o FPS consideravelmente.
 
-of.options.CLEAR_WATER=Água Clara
-of.options.CLEAR_WATER.tooltip.1=Clear Water
-of.options.CLEAR_WATER.tooltip.2=  ON - clear, transparent water ####
-of.options.CLEAR_WATER.tooltip.3=  OFF - default water
+of.options.CLEAR_WATER=Água Limpa
+of.options.CLEAR_WATER.tooltip.1=Água Limpa
+of.options.CLEAR_WATER.tooltip.2=  ON - água limpa, transparente
+of.options.CLEAR_WATER.tooltip.3=  OFF - água padrão
 
 of.options.RANDOM_MOBS=Random Mobs
 of.options.RANDOM_MOBS.tooltip.1=Random Mobs
@@ -377,6 +378,21 @@ of.options.VIGNETTE.tooltip.5=The vignette may have a significant effect on the 
 of.options.VIGNETTE.tooltip.6=especially when playing fullscreen.
 of.options.VIGNETTE.tooltip.7=The vignette effect is very subtle and can safely
 of.options.VIGNETTE.tooltip.8=be disabled
+
+of.options.DYNAMIC_FOV=Dynamic FOV
+of.options.DYNAMIC_FOV.tooltip.1=Dynamic FOV
+of.options.DYNAMIC_FOV.tooltip.2=  ON - enable dynamic FOV (default)
+of.options.DYNAMIC_FOV.tooltip.3=  OFF - disable dynamic FOV
+of.options.DYNAMIC_FOV.tooltip.4=Changes the field of view (FOV) when flying, sprinting 
+of.options.DYNAMIC_FOV.tooltip.5=or pulling a bow.
+
+of.options.DYNAMIC_LIGHTS=Dynamic Lights
+of.options.DYNAMIC_LIGHTS.tooltip.1=Dynamic Lights
+of.options.DYNAMIC_LIGHTS.tooltip.2=  ON - enable dynamic lights
+of.options.DYNAMIC_LIGHTS.tooltip.3=  OFF - disable dynamic lights (default)
+of.options.DYNAMIC_LIGHTS.tooltip.4=Enables light emitting items (torch, glowstone, etc.)
+of.options.DYNAMIC_LIGHTS.tooltip.5=to illuminate everything around them when held in hand,
+of.options.DYNAMIC_LIGHTS.tooltip.6=equipped by other player or dropped on the ground
 
 # Performance
 
