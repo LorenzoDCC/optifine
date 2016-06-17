@@ -6,6 +6,9 @@ of.general.id=Id
 of.general.restart=recomeçar
 of.general.smart=Smart ####
 
+# Keys
+of.key.zoom=Zoom
+
 # Message
 of.message.aa.shaders1=Antialiasing não é compatível com Shaders.
 of.message.aa.shaders2=Por favor desative os Shaders para ativar essa opção.
@@ -229,8 +232,8 @@ of.options.BETTER_SNOW.tooltip.3=  ON - neve melhor, mais lento
 of.options.BETTER_SNOW.tooltip.4=Mostra neve debaixo de blocos transparentes (cerca, grama alta)
 of.options.BETTER_SNOW.tooltip.5=quando ao lado de blocos de neve
 
-of.options.CUSTOM_FONTS=Custom Fonts
-of.options.CUSTOM_FONTS.tooltip.1=Custom Fonts
+of.options.CUSTOM_FONTS=Fontes Pers.
+of.options.CUSTOM_FONTS.tooltip.1=Fontes Personalizadas
 of.options.CUSTOM_FONTS.tooltip.2=  ON - usa fontes personalizadas (padrão), mais lento
 of.options.CUSTOM_FONTS.tooltip.3=  OFF - usa a fonte padrão, mais rápido
 of.options.CUSTOM_FONTS.tooltip.4=As fontes personalizadas são fornecidas pelo
@@ -271,48 +274,48 @@ of.options.NATURAL_TEXTURES=Texturas Naturais
 of.options.NATURAL_TEXTURES.tooltip.1=Texturas Naturais
 of.options.NATURAL_TEXTURES.tooltip.2=  OFF - sem texturas naturais (padrão)
 of.options.NATURAL_TEXTURES.tooltip.3=  ON - usa texturas naturais
-of.options.NATURAL_TEXTURES.tooltip.4=Natural textures remove the gridlike pattern
-of.options.NATURAL_TEXTURES.tooltip.5=created by repeating blocks of the same type.
-of.options.NATURAL_TEXTURES.tooltip.6=It uses rotated and flipped variants of the base
-of.options.NATURAL_TEXTURES.tooltip.7=block texture. The configuration for the natural
-of.options.NATURAL_TEXTURES.tooltip.8=textures is supplied by the current texture pack
+of.options.NATURAL_TEXTURES.tooltip.4=Texturas naturais removem o padrão em grade
+of.options.NATURAL_TEXTURES.tooltip.5=criado pela repetição de blocos do mesmo tipo.
+of.options.NATURAL_TEXTURES.tooltip.6=Variantes rotacionadas e invertidas da textura 
+of.options.NATURAL_TEXTURES.tooltip.7=base do bloco são usadas. A configuração para texturas
+of.options.NATURAL_TEXTURES.tooltip.8=naturais é fornecida pelo resource pack atual.
 
-of.options.CUSTOM_SKY=Custom Sky
-of.options.CUSTOM_SKY.tooltip.1=Custom Sky
-of.options.CUSTOM_SKY.tooltip.2=  ON - custom sky textures (default), slow
-of.options.CUSTOM_SKY.tooltip.3=  OFF - default sky, faster
-of.options.CUSTOM_SKY.tooltip.4=The custom sky textures are supplied by the current
-of.options.CUSTOM_SKY.tooltip.5=texture pack
+of.options.CUSTOM_SKY=Céu Pers.
+of.options.CUSTOM_SKY.tooltip.1=Céu Personalizado
+of.options.CUSTOM_SKY.tooltip.2=  ON - texturas personalizadas do céu (padrão), lento
+of.options.CUSTOM_SKY.tooltip.3=  OFF - céu padrão, rápido
+of.options.CUSTOM_SKY.tooltip.4=As texturas personalizadas são fornecidas
+of.options.CUSTOM_SKY.tooltip.5=pelo resource pack atual.
 
-of.options.CUSTOM_ITEMS=Custom Items
-of.options.CUSTOM_ITEMS.tooltip.1=Custom Items
-of.options.CUSTOM_ITEMS.tooltip.2=  ON - custom item textures (default), slow
-of.options.CUSTOM_ITEMS.tooltip.3=  OFF - default item textures, faster
-of.options.CUSTOM_ITEMS.tooltip.4=The custom item textures are supplied by the current
-of.options.CUSTOM_ITEMS.tooltip.5=texture pack
+of.options.CUSTOM_ITEMS=Itens Pers.
+of.options.CUSTOM_ITEMS.tooltip.1=Itens Personalizados
+of.options.CUSTOM_ITEMS.tooltip.2=  ON - texturas personalizadas de itens (padrão), lento
+of.options.CUSTOM_ITEMS.tooltip.3=  OFF - texturas padrões de itens, rápido
+of.options.CUSTOM_ITEMS.tooltip.4=As texturas personalizadas de item são fornecidas
+of.options.CUSTOM_ITEMS.tooltip.5=pelo resource pack atual.
 
 # Details
 
-of.options.CLOUDS=Clouds
-of.options.CLOUDS.tooltip.1=Clouds
-of.options.CLOUDS.tooltip.2=  Default - as set by setting Graphics
-of.options.CLOUDS.tooltip.3=  Fast - lower quality, faster
-of.options.CLOUDS.tooltip.4=  Fancy - higher quality, slower
-of.options.CLOUDS.tooltip.5=  OFF - no clouds, fastest
-of.options.CLOUDS.tooltip.6=Fast clouds are rendered 2D.
-of.options.CLOUDS.tooltip.7=Fancy clouds are rendered 3D.
+of.options.CLOUDS=Nuvens
+of.options.CLOUDS.tooltip.1=Nuvens
+of.options.CLOUDS.tooltip.2=  Padrão - como na configuração Gráficos
+of.options.CLOUDS.tooltip.3=  Rápido - menor qualidade, rápido
+of.options.CLOUDS.tooltip.4=  Bonito - maior qualidade, lento
+of.options.CLOUDS.tooltip.5=  OFF - sem nuvens, mais rápido
+of.options.CLOUDS.tooltip.6=Nuvens rápidas são renderizadas em 2D.
+of.options.CLOUDS.tooltip.7=Nuvens bonitas são renderizadas em 3D.
 
-of.options.CLOUD_HEIGHT=Cloud Height
-of.options.CLOUD_HEIGHT.tooltip.1=Cloud Height
-of.options.CLOUD_HEIGHT.tooltip.2=  OFF - default height
-of.options.CLOUD_HEIGHT.tooltip.3=  100%% - above world height limit
+of.options.CLOUD_HEIGHT=Alt. das Nuvens
+of.options.CLOUD_HEIGHT.tooltip.1=Altura das Nuvens
+of.options.CLOUD_HEIGHT.tooltip.2=  OFF - altura padrão
+of.options.CLOUD_HEIGHT.tooltip.3=  100%% - acima do limite de construção do mundo
 
-of.options.TREES=Trees
-of.options.TREES.tooltip.1=Trees
-of.options.TREES.tooltip.2=  Default - as set by setting Graphics
-of.options.TREES.tooltip.3=  Fast - lower quality, faster
+of.options.TREES=Árvores
+of.options.TREES.tooltip.1=Árvores
+of.options.TREES.tooltip.2=  Padrão - como na configuração Gráficos
+of.options.TREES.tooltip.3=  Rápido - lower quality, faster ####
 of.options.TREES.tooltip.4=  Smart - higher quality, fast
-of.options.TREES.tooltip.5=  Fancy - highest quality, slower
+of.options.TREES.tooltip.5=  Bonito - highest quality, slower
 of.options.TREES.tooltip.6=Fast trees have opaque leaves.
 of.options.TREES.tooltip.7=Fancy and smart trees have transparent leaves.
 
